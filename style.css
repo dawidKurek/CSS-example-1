@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*font-family: 'Nanum Gothic', sans-serif;*/
+    font-family: 'Dosis', sans-serif;
+    box-sizing: border-box;
+}
+html{
+    font-size:62.5%;
+    
+}
+body{
+    background-color: #2f2e2e;
+}
+.navigation-header{
+    background-color: #2f2e2e;
+    position: fixed;
+    width: 100vw;
+    font-size:1.5rem ;
+    z-index: 100;
+}
+nav ul{
+    display: flex;
+    width: 980px;
+    margin: auto;
+    padding: 15px 0;
+}
+nav ul li{
+    list-style-type: none;
+    width: 16.66%;
+    text-align: center;
+    
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+    transition: 0.3s ease;
+}
+nav a:hover{
+    color:#bcbcbc;
+}
+.logo-photo-header{
+    background-image: url(img/car-header.jpeg);
+    width: 99vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    
+    display: flex;
+    justify-content: center;   
+}
+.logo-photo-header h1{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 6.5rem;
+    text-align: center;   
+}
+.logo-photo-header p{
+    font-size: 3rem;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom:;
+    letter-spacing: 6px;
+}
+.position-of-logo-and-header-text{
+    position: absolute;
+    top: 30%;
+}
+main{
+    position: relative;
+    top: -128px;
+}
+.parallax-window{
+    min-height: 520px;
+    background: transparent;
+    padding: 100px 0;
+}
+ .social-media ul{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+ .social-media ul li{
+    list-style-type: none;
+    margin: 8px;
+}
+.services-of-the-garage{
+    color: #fff;
+}
+.services-of-the-garage h2{
+    text-align: center;
+    
+    
+}
+.underline-under-h2{
+    font-size: 4rem;
+    font-weight: 200;
+}
+.underline-under-h2::after{
+    content: '';
+    display: block;
+    height: 3px;
+    background-color: ;
+    width: 40px;
+    margin: 15px 48% 0 48%;
+    
+}
+.services-of-the-garage ol{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.services-of-the-garage ol li{
+    list-style-type: none;
+    max-width: 160px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 50px;
+}
+.services-of-the-garage h3{
+    font-size: 2rem;
+    font-weight: 200;
+    margin: 15px 0;
+}
+.services-of-the-garage p{
+    font-size: 1.5rem;
+}
+.circle{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    border:2px solid #fff;
+}
+.container{
+    background-color: #fff;
+    
+}
+.container-for-gallery{
+    text-align: center;
+    padding: 100px 0;
+    max-width: 1278px;
+    margin: auto;
+    background-color: #fff;
+}
+.container-for-gallery p{
+    font-size: 1.5rem;
+    margin: 20px 0 50px 0;
+}
+.gallery-photo{
+    width: 426px;
+    height: 330px;
+    float: left;
+}
+.gallery-photo img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.container-for-gallery::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.clear{
+    clear: both;
+}
+.box-for-about-text{
+    background-color: #fff;
+    padding: 100px;
+    max-width: 662px;
+    margin: auto;
+    text-align: center;
+}
+.box-for-about-text p{
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+.box-for-find-us{
+    font-size: 1.5rem;
+    background-color: #fff;
+    padding: 100px;
+    text-align: left;
+    max-width: 662px;
+    margin: auto;
+}
+.transparent-white-car{
+    display: flex;
+    justify-content: center;
+}
+.transparent-white-car img{
+    display: block;
+}
+.address-tel-open{
+    width: 50%;
+    float: left;
+}
+form{
+    width: 50%;
+    float: left;
+}
+.box-for-find-us h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.box-for-find-us::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+input,textarea{
+    width: 100%;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+textarea{
+    height: 100px;
+}
+button{
+    border: none;
+    width: 100%;
+    padding: 5px;
+    color: #fff;
+    background-color: #000;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+button:hover{
+    background-color: #4f4f4f;
+}
+footer{
+    background-color: #2f2e2e;
+    color: #fff;
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 1.5rem;
+    /*position: relative;
+    top: -128px;*/
+}
+footer .social-media ul{
+    padding-bottom: 0;
+}
+.one{
+    background-image: url(img/orange-front-light.jpeg);
+}
+.two{
+    background-image: url(img/white-car-repair.jpeg);
+}
+.three{
+    background-image: url(img/black-front-site-car.jpeg);
+}
+.four{
+    background-image: url(img/front-light.jpeg);
+}
+.five{
+    background-image: url(img/wheel-plus-red.jpeg);
+}
+.six{
+    background-image: url(img/white-car-with-red-line.jpeg);
+}
+.gallery-photo{
+    color: #fff;
+}
+.gallery-photo h3{
+    font-size: 3rem;
+}
+.transparent-box{
+    background-color: rgba(0, 0, 0, 0);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.3s ease;
+    padding: 0 30px;
+}
+main .container-for-gallery .gallery-photo p{
+    font-size: 1.5rem;   
+}
+main .container-for-gallery .gallery-photo h3,
+main .container-for-gallery .gallery-photo p{
+    display: none;
+    
+}
+main .container-for-gallery .gallery-photo:hover h3,
+main .container-for-gallery .gallery-photo:hover p{
+    display: block;
+}
+
+main .container-for-gallery .gallery-photo:hover .transparent-box {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+.hide{
+	opacity:0
+}
+
+.show {
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
